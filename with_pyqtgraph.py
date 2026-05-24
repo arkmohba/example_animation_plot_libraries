@@ -13,7 +13,7 @@ i = 0
 
 def update():
     global i
-    curve.setData(np.sin(x + i * 0.1))
+    curve.setData(np.sin(x - i * 0.1))
     i += 1
 
 timer = QtCore.QTimer()
